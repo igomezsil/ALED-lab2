@@ -29,7 +29,7 @@ public class SkeletonPanel extends JPanel {
 	 * 
 	 * @param root  The first Segment of the kinematic chain.
 	 * @param sizeX The width of the window.
-	 * @param sizeX The height of the window.
+	 * @param sizeY The height of the window.
 	 */
 	public SkeletonPanel(Segment root, int sizeX, int sizeY) {
 		this.root = root;
