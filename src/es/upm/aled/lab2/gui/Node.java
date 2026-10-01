@@ -37,9 +37,9 @@ public class Node {
 	}
 
 	/**
-	 * Returns the X coordinate.
+	 * Returns the Y coordinate.
 	 * 
-	 * @return The X coordinate.
+	 * @return The Y coordinate.
 	 */
 	public double getY() {
 		return y;
@@ -59,7 +59,7 @@ public class Node {
 	 * Adds a new Node to the List of Nodes this one is connected to. Each Node can
 	 * only appear as a child once.
 	 * 
-	 * @param measurement The Node to be added.
+	 * @param child The Node to be added.
 	 */
 	public void addChild(Node child) {
 		if (!children.contains(child))
