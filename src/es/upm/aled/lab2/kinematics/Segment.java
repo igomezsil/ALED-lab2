@@ -1,5 +1,6 @@
 package es.upm.aled.lab2.kinematics;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import es.upm.aled.lab2.gui.Node;
@@ -26,6 +27,7 @@ public class Segment {
 	public Segment(double length, double angle) {
 		this.length = length;
 		this.angle = angle;
+		this.children = new ArrayList<>();
 	}
 	
 	/**
